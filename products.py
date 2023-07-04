@@ -10,3 +10,6 @@ while True:
 	# p = [name, price]
 	products.append([name, price]) # 把 p 放入 products 清單中
 print(products)
+
+for p in products:
+	print(p)
